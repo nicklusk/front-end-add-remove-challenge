@@ -1,0 +1,226 @@
+/* The Duke Color Palatte from https://brand.duke.edu/colors/ */
+/*
+Copper #C84E00 
+Persimmon	#E89923 
+Dandelion	#FFD960 
+Piedmont #A1B70D 
+Eno	#339898 
+Magnolia #1D6363 
+Prussian Blue	#005587 
+Shale Blue #0577B1 
+Ironweed #993399 
+Hatteras #E2E6ED 
+Whisper Gray #F3F2F1 
+Ginger Beer #FCF7E5 
+Dogwood #988675 
+Shackleford #DAD0C6 
+Cast Iron #262626 
+Graphite #666666 
+Granite #B5B5B5 
+Limestone #E5E5E5 
+*/
+
+#MRH-header {
+  background-image: url(./img/header-main-2400.jpg);
+  overflow: hidden;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+#login {
+  vertical-align: middle;
+  position: relative;
+  top:50px;
+  right:100px;
+}
+
+#login a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.user-menu-links {
+  width:200px;
+  float:right;
+}
+
+.text-white {
+  color:#fff;
+}
+
+.fit-header {
+  height:120px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+*, a, p, h1, h2, h3 {
+  font-family: Roboto, Arial;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-unset {
+  justify-content: unset;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #00539B;
+}
+
+.btn:hover {
+ background-color: #012169;
+}
+
+.remove-project-btn {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px 6px 12px;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  border: 0;
+  border-radius: 25px;
+}
+
+.remove-user-btn {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  color: red;
+  background-color: #fff;
+  border: 0;
+
+}
+
+.remove-user-btn:hover {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  color: red;
+  background-color: #fff;
+  border: 0;
+
+}
+
+.submit-btn {
+  background: inherit;
+  padding: 6px 12px 6px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #00539B;
+  color: white !important;
+  border-radius: 25px;
+  text-transform: uppercase;
+  border: none;
+  margin: 0 auto;
+}
+
+.status {
+  background: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+.status.draft {
+  color:red;
+}
+
+.status.active {
+  color:#012169;
+}
+
+.form-container {
+  min-width: 300px;
+}
+
+.form-control {
+  padding: 0.5rem;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.form-control input[type = "text"] {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.form-control select {
+  padding: 0.5rem;
+}
+
+body {
+  background-color: #F3F2F1;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+  border: 0;
+}
+
+h5 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+table {
+  background-color: #fff;
+  width: 100%;
+  max-width: 600px;
+  min-width: 400px;
+  border-collapse: collapse;
+  margin: 2rem auto;
+}
+
+table tr {
+  border: 1px solid #000;
+}
+
+table th,
+table td {
+  padding: 0.5rem;
+  text-align: left;
+}
