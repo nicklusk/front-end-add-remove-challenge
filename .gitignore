@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+setupTests.js
+App.test.js
+
 # production
 /build
 
