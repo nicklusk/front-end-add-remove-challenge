@@ -34,8 +34,8 @@ class App extends Component {
     };
 
     removeProjectHandler(projectID) {
-        const updatedProjects = this.state.projects.filter(project => !(project.id === projectID));
-        const updatedUsers = this.state.users.filter(user => !(user.project_id === projectID));
+        const updatedProjects = this.state.projects.filter(project => (project.id !== projectID));
+        const updatedUsers = this.state.users.filter(user => (user.project_id !== projectID));
         this.setState({
             projects: [...updatedProjects],
             users: [...updatedUsers],
@@ -49,16 +49,16 @@ class App extends Component {
     };
 
     removeUserFromProjectHandler(userID) {
-        const updatedUsers = this.state.users.filter(user => !(user.id === userID));
+        const updatedUsers = this.state.users.filter(user => (user.id !== userID));
         this.setState({users: [...updatedUsers]});
     };
 
     render() {
         return (
             <div className="App">
-                <header class="text-white" id="MRH-header">
-                    <div id="login" class="fit-header">
-                        <div class="user-menu-links">
+                <header className="text-white" id="MRH-header">
+                    <div id="login" className="fit-header">
+                        <div className="user-menu-links">
                             <a href="http://mrh.duke.edu">CUSTOMIZE</a> | <a href="http://mrh.duke.edu">Nick Lusk</a>
                         </div>
                     </div>
