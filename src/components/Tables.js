@@ -7,6 +7,7 @@ const Tables = ({ projects, users, removeProject, removeUser }) => {
     return (
         <div className="flex-box justify-evenly wrap">
             {!!projects.length && projects.map(project => {
+            // The Not Not Converts Object to boolean. If it was falsey (e.g. 0, null, undefined, etc.), it will be false, otherwise, true.
                 const associatedUsers = users.filter(user => user.project_id === project.id);
                 return <Table key={project.id}
                               active={project.active}

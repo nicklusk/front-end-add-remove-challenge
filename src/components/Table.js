@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Table = ({ projectName, projectID, active, users, removeProject, removeUser, startDate }) => {
+const Table = ({ projectName, projectID, active, users, removeProject, removeUser }) => {
     return (
         <div>
             <table>
